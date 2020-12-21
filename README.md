@@ -22,13 +22,13 @@ DestoryOnTrigger.cs - When The enemy reach the engine the collider is triggered 
 
 ####
 ### **Example Pics From the scene**
-### Brave you can see the enemy stand in the closest point to player
+#### Brave - you can see the enemy stand in the closest point to player
 ![](https://github.com/Lba-universe/SmartEnemyController/blob/main/pics/brav1e.png)
-### Coward you can see the enemy stand in the most far point from player
+#### Coward - you can see the enemy stand in the most far point from player
 ![](https://github.com/Lba-universe/SmartEnemyController/blob/main/pics/coward.png)
-### Chaser
+#### Chaser - the enemy is on the player 
 ![](https://github.com/Lba-universe/SmartEnemyController/blob/main/pics/chaser.png)
-### DestoryEngine - in this picture trigger is turned off so you can see the engine
+#### DestoryEngine - in this picture trigger is turned off so you can see the engine
 ![](https://github.com/Lba-universe/SmartEnemyController/blob/main/pics/engine.png)
 
 
