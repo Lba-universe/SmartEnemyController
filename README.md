@@ -1,11 +1,36 @@
-# Unity week 6: Three-dimensional scene-building and navigation
+# Smart Enemy Controller
 
-A project with step-by-step scenes illustrating how to construct a 3D game, including:
+**Created a Smart Controller for this modes:**
+* Coward: The enemy chooses, from the targets on his list the most far target from the player.
+* Brave: The enemy chooses, from the targets on his list the closest target to the player. 
+* Chaser: The enemy chases players. 
+* DestoryEngine to the engine: The enemy tries to reach the middle of the building (to destory him)
+![](https://github.com/Lba-universe/SmartEnemyController/blob/main/pics/enemycontroller.png)
+####
+**Scene: EnemyController.unity** 
 
-* Scene modelling with Terrain Tools and ProGrids;
-* Player control with CharacterController and NavMeshAgent;
-* Enemy AI;
-* Target visualization with gizmmos.
+#### 
+**Scripts**
+
+
+
+EnemyMovement.cs - Moves the enemy towards the given target ![link](https://github.com/Lba-universe/SmartEnemyController/blob/main/Assets/Scripts/2-npc/EnemyMovement.cs)
+
+EnemyController.cs - set to EnemyMovement target by selecting mode ``` enum ModeSwitching { None, Chaser, Brave, Coward, DestoryEngine }; ``` ![link](https://github.com/Lba-universe/SmartEnemyController/blob/main/Assets/Scripts/2-npc/EnemyController.cs)
+
+DestoryOnTrigger.cs - When The enemy reach the engine the collider is triggered and engine is destoryed. ![link](https://github.com/Lba-universe/SmartEnemyController/blob/main/Assets/Scripts/2-npc/DestoryOnTrigger.cs)
+
+####
+### **Example Pics From the scene**
+### Brave you can see the enemy stand in the closest point to player
+![](https://github.com/Lba-universe/SmartEnemyController/blob/main/pics/brav1e.png)
+### Coward you can see the enemy stand in the most far point from player
+![](https://github.com/Lba-universe/SmartEnemyController/blob/main/pics/coward.png)
+### Chaser
+![](https://github.com/Lba-universe/SmartEnemyController/blob/main/pics/chaser.png)
+### DestoryEngine - in this picture trigger is turned off so you can see the engine
+![](https://github.com/Lba-universe/SmartEnemyController/blob/main/pics/engine.png)
+
 
 ## Credits
 
