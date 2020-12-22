@@ -43,7 +43,7 @@ public class EnemyController : MonoBehaviour
 
         enemyMovement = gameObject.GetComponent<EnemyMovement>();
         navMeshAgent = GetComponent<NavMeshAgent>();
-        EnemyMode = ModeSwitching.None;
+        // EnemyMode = ModeSwitching.None; should be None when init but i wanted to upload it to itch.io
 
         // get components in active children only
         allTargets = targetFolder.GetComponentsInChildren<Target>(false);

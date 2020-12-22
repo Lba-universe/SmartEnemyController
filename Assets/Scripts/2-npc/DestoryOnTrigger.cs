@@ -14,7 +14,11 @@ public class DestoryOnTrigger : MonoBehaviour
 
         if (other.tag == triggeringTag && enabled)
         {
+            // destory both
+            Destroy(other.gameObject);
             Destroy(gameObject);
+
+
         }
     }
 }
