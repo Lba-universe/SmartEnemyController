@@ -1,6 +1,6 @@
 # Smart Enemy Controller
 
-![itch.io upload](https://lba-universe.itch.io/aicontroller)
+### ![itch.io upload](https://lba-universe.itch.io/aicontroller)
 
 **Created a Smart Controller for this modes:**
 * Coward: The enemy chooses, from the targets on his list the most far target from the player.
