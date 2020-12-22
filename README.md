@@ -4,7 +4,7 @@
 * Coward: The enemy chooses, from the targets on his list the most far target from the player.
 * Brave: The enemy chooses, from the targets on his list the closest target to the player. 
 * Chaser: The enemy chases players. 
-* DestoryEngine to the engine: The enemy tries to reach the middle of the building (to destory him)
+* DestoryEngine: The enemy tries to reach the middle of the building to the engine (to destory him)
 ![](https://github.com/Lba-universe/SmartEnemyController/blob/main/pics/enemycontroller.png)
 ####
 **Scene: EnemyController.unity** 
