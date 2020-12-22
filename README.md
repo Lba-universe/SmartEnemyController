@@ -34,9 +34,10 @@ DestoryOnTrigger.cs - When The enemy reach the engine the collider is triggered 
 
 ## Credits
 
-Programming:
+Base Code Programming:
 * Michael Lemberger
 * Erel Segal-Halevi
+
 
 Graphics:
 * [Sci-Fi Gun Light](https://assetstore.unity.com/packages/3d/props/guns/sci-fi-gun-light-87916)
