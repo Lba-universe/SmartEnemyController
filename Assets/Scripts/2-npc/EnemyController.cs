@@ -63,7 +63,7 @@ public class EnemyController : MonoBehaviour
                     enemyMovement.target = Player.transform;
                     break;
 
-                // brave mode is searching the closest points target to player - 2 == coward in the enum
+                // brave mode is searching the closest points target to player - 2 == Brave in the enum
                 case ModeSwitching.Brave:
                     var targetBrave = distanceFromPlayer(2);
                     navMeshAgent.SetDestination(targetBrave.transform.position);
